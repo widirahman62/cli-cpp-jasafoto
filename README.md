@@ -13,6 +13,15 @@ Demo program dapat dilihat di [Demo](https://repl.it/@widirahman62/CPPpemesanan-
 * Menghapus data pesanan
 * Pencarian data pesanan berdasarkan nama, paket, tanggal pemesanan, atau tanggal pemotretan
 
+# Program ini menggunakan
+* Array
+* Struct
+* Insertion Sort
+* Sequential Search
+* Queue
+* Vector
+* CRUD data
+
 # Cara menjalankan program secara lokal
 1. Pastikan komputer telah terinstall [MinGW](http://www.mingw.org/)
 2. Buka kode editor ([VScode](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/3), dll), Cari kode program pada baris yang berisi *define MAX* 10 dan ubah angkanya sesuai dengan kapasitas data antrean yang diinginkan
