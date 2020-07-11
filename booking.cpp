@@ -34,7 +34,7 @@ vector<Pesanan> antrian;
 int getOption()
 {
     int input;
-    system("cls");
+    system("clear");
     cout << "\nSistem booking studio foto Kelompok 7" << endl;
     cout << "=============================" << endl;
     cout << "Data Pesanan" << endl;
@@ -210,7 +210,7 @@ void clear()
 void tampilData()
 {
 here:
-    system("cls");
+    system("clear");
     cout << "List Data " << list[0].tgl_booking[2] << "/" << list[0].tgl_booking[1] << "/" << list[0].tgl_booking[0] << endl;
     cout << setw(4) << "No." << setw(12) << "Nama" << setw(12) << "Paket" << setw(12) << "Tgl_Pesan" << setw(12) << endl;
     for (int g = 0; g < list.size(); g++)
@@ -279,7 +279,7 @@ void queue()
 }
 void antri()
 {
-    system("cls");
+    system("clear");
     init();
     que.clear();
     int d = 1;
@@ -391,7 +391,7 @@ void searchName()
 {
     string keyName;
     int number = 0;
-    system("cls");
+    system("clear");
     cin.ignore();
     cout << "Input Nama yang dicari :" << endl;
     getline(cin, keyName);
@@ -421,7 +421,7 @@ void searchPaket()
 {
     char keyPaket;
     int numb = 0;
-    system("cls");
+    system("clear");
     cin.ignore();
     cout << "Input Paket yang dicari :" << endl;
     cin >> keyPaket;
@@ -453,7 +453,7 @@ void searchPesan()
     int keyPesanBulan;
     int keyPesanTahun;
     int num = 0;
-    system("cls");
+    system("clear");
     cin.ignore();
     cout << "Input Pencarian" << endl;
     cout << "Tanggal : ";
@@ -490,7 +490,7 @@ void searchBooking()
     int keyBookingBulan;
     int keyBookingTahun;
     int nom = 0;
-    system("cls");
+    system("clear");
     cin.ignore();
     cout << "Input Pencarian" << endl;
     cout << "Tanggal : ";
@@ -523,7 +523,7 @@ void searchBooking()
 }
 void seqSearch()
 {
-    system("cls");
+    system("clear");
     char lanj;
     cout << "Pencarian data" << endl;
     int h = opsiSearch();
