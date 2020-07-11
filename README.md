@@ -4,7 +4,7 @@ Ide program yang dibuat berasal dari alur proses pemesanan jasa pada salah satu 
 Di era modern seperti saat ini, ternyata masih banyak studio foto yang pelayanan administrasinya belum terdigitalisasi.
 Diharapkan program ini dapat memberikan gambaran dan membantu digitalisasi pihak sejenis khususnya pada proses pemesanan jasa yang dilakukan.
 
-Demo program dapat dilihat di [Demo]()
+Demo program dapat dilihat di [Demo](https://repl.it/@widirahman62/CPPpemesanan-jasa-foto)
 
 # Fitur yang ditawarkan
 * Mengantrekan data pada tanggal yang diinputkan dengan kapasitas data tertentu (default = 10 data antrean)
@@ -22,4 +22,3 @@ g++ booking.cpp -o booking
 booking
 
 Pembuatan program tidak luput dari adanya bug dan kekurangan lainnya. Kontribusi anda akan sangat membantu dalam pengembangan program ini kedepannya.
-[![Run on Repl.it](https://repl.it/badge/github/widirahman62/CPP_pemesanan-jasa-foto)](https://repl.it/github/widirahman62/CPP_pemesanan-jasa-foto)
